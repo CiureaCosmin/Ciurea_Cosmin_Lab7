@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ciurea_Cosmin_Lab7.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="retro_detective.svg"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Superman in actiune"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Cine este Superman?"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Cine este Superman?"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Apasa pentru a vedea cine este Superman!"
+                SemanticProperties.Hint="Apasa pentru a vedea cine este Superman"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+-
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
