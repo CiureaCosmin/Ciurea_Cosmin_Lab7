@@ -34,7 +34,7 @@
                 SemanticProperties.Hint="Apasa pentru a vedea cine este Superman"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
--
+
         </VerticalStackLayout>
     </ScrollView>
 
